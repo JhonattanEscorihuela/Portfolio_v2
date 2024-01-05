@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Services from './components/Services/Services';
-// import Portfolio from './components/Portfolio';
+import Portfolio from './components/MyWork/Portfolio';
 // import Contact from './components/Contact';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             < Header />
             <About />
             <Services />
-            {/* <Portfolio /> */}
+            <Portfolio />
             {/* <Contact /> */}
         </div>
     );
