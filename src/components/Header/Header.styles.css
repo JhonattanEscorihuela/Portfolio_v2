@@ -107,8 +107,8 @@ body {
 }
 
 .size-12 {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 img {
@@ -116,7 +116,17 @@ img {
     display: block;
 }
 
+/* .in-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 5px;
+} */
+
 @media only screen and (max-width: 600px) {
+
+
+
 
     .fa-icon {
         display: block;

@@ -1,6 +1,7 @@
 // About.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 import './About.styles.css'
 
 function About() {
@@ -82,11 +83,14 @@ function About() {
                                     </div>
                                 </li>
                                 <li>
-                                    <span>
+                                    {/* <span>
                                         September 2019 - December 2021
                                     </span>
                                     <div>Telecommunications Project Coordinator
-                                    </div>
+                                    </div> */}
+                                    <Link to={'/experienceWork'} onClick={() => scrollToSection('experienceWork')}>
+                                        See More
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

@@ -1,6 +1,12 @@
 @media only screen and (max-width: 600px) {
+
+    .size-12 {
+        width: 4rem;
+        height: 4rem;
+    }
+
     .header-text {
-        margin-top: 100%;
+        margin-top: 80%;
         font-size: 16px;
     }
 
@@ -69,4 +75,17 @@
     .copyright {
         font-size: 14px;
     }
+}
+
+.dark-mode {
+    /* Cambia los colores y estilos para el modo oscuro */
+    background-color: #080808;
+    color: #fff;
+}
+
+/* Estilos para el tema claro */
+.light-mode {
+    /* Estilos para el modo claro */
+    background-color: #fff;
+    color: #333;
 }

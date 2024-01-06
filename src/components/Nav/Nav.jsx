@@ -20,6 +20,7 @@ function Nav() {
         }
     };
 
+
     const openMenu = () => {
         setMenuVisible(true);
     };
