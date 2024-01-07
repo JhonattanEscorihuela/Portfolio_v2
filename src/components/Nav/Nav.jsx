@@ -36,7 +36,7 @@ function Nav() {
     }, [menuVisible]);
 
     return (
-        <nav>
+        <nav id="nav">
             <img src="images/logoJE.png" className="logo" />
             <ul ref={sideMenuRef} id="sidemenu">
                 <li>
@@ -45,22 +45,22 @@ function Nav() {
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/about'} onClick={() => scrollToSection('about')}>
+                    <Link to={'/'} onClick={() => scrollToSection('about')}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/services'} onClick={() => scrollToSection('services')}>
+                    <Link to={'/'} onClick={() => scrollToSection('services')}>
                         Services
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/mywork'} onClick={() => scrollToSection('portfolio')}>
+                    <Link to={'/'} onClick={() => scrollToSection('portfolio')}>
                         Portfolio
                     </Link>
                 </li>
                 <li>
-                    <Link to={'/contact'} onClick={() => scrollToSection('contact')}>
+                    <Link to={'/'} onClick={() => scrollToSection('contact')}>
                         Contact
                     </Link>
                 </li>
