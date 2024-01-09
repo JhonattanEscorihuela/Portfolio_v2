@@ -83,13 +83,10 @@ function About() {
                                     </div>
                                 </li>
                                 <li>
-                                    {/* <span>
-                                        September 2019 - December 2021
-                                    </span>
-                                    <div>Telecommunications Project Coordinator
-                                    </div> */}
                                     <Link to={'/experienceWork'} onClick={() => scrollToSection('experienceWork')}>
-                                        See More
+                                        <button type="button" className="text-[#9783C2] hover:text-white border border-[9783C2] hover:bg-[#9783C2] focus:ring-4 focus:outline-none focus:ring-[#9783C2] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#9783C2] dark:text-[#9783C2] dark:hover:text-white dark:hover:bg-[#9783C2] dark:focus:ring-[#9783C2]">
+                                            See More
+                                        </button>
                                     </Link>
                                 </li>
                             </ul>

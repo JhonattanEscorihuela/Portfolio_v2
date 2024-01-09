@@ -5,6 +5,7 @@ import Services from './components/Services/Services';
 import Portfolio from './components/MyWork/Portfolio';
 import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
+import ExperienceTW from './components/Experience/ExperienceTW';
 import './App.styles.css'
 import { Routes, Route } from 'react-router-dom';
 
@@ -14,7 +15,7 @@ function App() {
 
             <Routes>
                 <Route path='/' element={<MainContent />} />
-                <Route path='/experienceWork' element={<Experience />} />
+                <Route path='/experienceWork' element={<ExperienceTW />} />
             </Routes>
         </div>
     );
