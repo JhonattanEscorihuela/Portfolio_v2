@@ -2,7 +2,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
-import './Portfolio.styles.css'
+
 
 function Portfolio() {
     return (
@@ -52,5 +52,7 @@ function Portfolio() {
         </div>
     );
 }
+
+import './Portfolio.styles.css'
 
 export default Portfolio;

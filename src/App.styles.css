@@ -1,6 +1,20 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #080808;
+    color: #fff;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -18,11 +32,11 @@
         font-size: 30px;
     }
 
-    .header-text h2{
+    .header-text h2 {
         font-size: 20px;
     }
 
-    .header-text h6{
+    .header-text h6 {
         font-size: 14px;
     }
 
@@ -88,4 +102,3 @@
         font-size: 14px;
     }
 }
-

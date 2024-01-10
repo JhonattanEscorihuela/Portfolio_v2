@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import './Social-icons.styles.css'
+
 
 function SocialIcons() {
     return (
@@ -24,5 +24,7 @@ function SocialIcons() {
         </div>
     );
 }
+
+import './Social-icons.styles.css'
 
 export default SocialIcons;

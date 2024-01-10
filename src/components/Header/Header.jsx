@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Nav from '../Nav/Nav';
 import SocialIcons from '../Social-icons/Social-icons';
 import Typed from 'typed.js';
-import './Header.styles.css';
+
 
 function Header() {
 
@@ -34,7 +34,7 @@ function Header() {
 
                 <div className="header-text">
                     <div className='in-line'>
-                        <img className="rounded-full size-12 mb-4" src="images/perfil.jpg" alt="midudev photo" />
+                        <img className="rounded-full size-12 mb-4" src="./images/perfil.jpg" alt="Jhonattan photo" />
                         <h4 className='gap-x-4'>Hello, It's me <a className="flex justify-center items-center" href="https://www.linkedin.com/in/jhonattanescorihuela/" target="_blank">
                             <span className="text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-blue-600 text-white dark:bg-blue-900 dark:text-blue-300">Available for work</span>
                         </a></h4>
@@ -55,5 +55,7 @@ function Header() {
         </div>
     );
 }
+
+import './Header.styles.css';
 
 export default Header;

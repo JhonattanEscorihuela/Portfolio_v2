@@ -1,9 +1,8 @@
 // Services.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrain, faCalendar, faCalendarAlt, faCalendarCheck, faCode, faCrop, faLink, faMagnet } from '@fortawesome/free-solid-svg-icons';
-import './Services.styles.css'
-import { faAppStore } from '@fortawesome/free-brands-svg-icons';
+import { faBrain,  faCalendarCheck, faCode} from '@fortawesome/free-solid-svg-icons';
+
 
 function Services() {
     return (
@@ -39,5 +38,7 @@ function Services() {
         </div>
     );
 }
+
+import './Services.styles.css'
 
 export default Services;

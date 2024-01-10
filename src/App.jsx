@@ -6,7 +6,7 @@ import Portfolio from './components/MyWork/Portfolio';
 import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import ExperienceTW from './components/Experience/ExperienceTW';
-import './App.styles.css'
+
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -32,5 +32,7 @@ function MainContent() {
         </>
     );
 }
+
+import './App.styles.css'
 
 export default App;

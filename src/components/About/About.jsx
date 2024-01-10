@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import './About.styles.css'
+
 
 function About() {
 
@@ -18,7 +18,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="images/userJE.jpg" />
+                        <img src="/images/userJE.jpg" />
                     </div>
                     <div className="about-col-2">
                         <h1 className="sub-title">About Me</h1>
@@ -116,5 +116,7 @@ function About() {
         </div>
     );
 }
+
+import './About.styles.css'
 
 export default About;

@@ -1,9 +1,10 @@
 // Nav.jsx
 import React, { useEffect, useRef, useState } from "react";
-import './Nav.styles.css'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
+
+import './Nav.styles.css'
 
 function Nav() {
 
@@ -70,6 +71,8 @@ function Nav() {
         </nav>
     )
 }
+
+
 
 export default Nav;
 

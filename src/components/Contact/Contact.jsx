@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import './Contact.styles.css'
+
 
 function Contact() {
 
@@ -60,5 +60,7 @@ function Contact() {
 
     );
 }
+
+import './Contact.styles.css'
 
 export default Contact;
