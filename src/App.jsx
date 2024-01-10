@@ -6,15 +6,16 @@ import Portfolio from './components/MyWork/Portfolio';
 import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import ExperienceTW from './components/Experience/ExperienceTW';
-
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 function App() {
+
+    const location = useLocation();
     return (
         <div className="App">
 
-            <Routes>
-                <Route path='/' element={<MainContent />} />
+            <Routes key={location.pathname} location={location}>
+                <Route index element={<MainContent />} />
                 <Route path='/experienceWork' element={<ExperienceTW />} />
             </Routes>
         </div>
