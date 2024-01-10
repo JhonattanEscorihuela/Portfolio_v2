@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import userJE from '../../images/userJE.jpg'
+
 
 
 function About() {
@@ -18,7 +20,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="/images/userJE.jpg" />
+                        <img src={userJE} />
                     </div>
                     <div className="about-col-2">
                         <h1 className="sub-title">About Me</h1>

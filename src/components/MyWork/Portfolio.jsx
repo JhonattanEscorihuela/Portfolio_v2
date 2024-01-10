@@ -3,6 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
+import work1 from '../../images/work-1.png'
+import work2 from '../../images/work-2.png'
+import work3 from '../../images/work-3.png'
+
 
 function Portfolio() {
     return (
@@ -11,7 +15,7 @@ function Portfolio() {
                 <h1 className="sub-title">My Work</h1>
                 <div className="work-list">
                     <div className="work">
-                        <img src="images/work-1.png" />
+                        <img src={work1} />
                         <div className="layer">
                             <h3>Social Media App</h3>
                             <p>The app connects you yo the talented people around the world.
@@ -23,7 +27,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/work-2.png" />
+                        <img src={work2} />
                         <div className="layer">
                             <h3>Music App</h3>
                             <p>The app connects you yo the talented people around the world.
@@ -35,7 +39,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/work-3.png" />
+                        <img src={work3} />
                         <div className="layer">
                             <h3>Online Shopping App</h3>
                             <p>The app connects you yo the talented people around the world.

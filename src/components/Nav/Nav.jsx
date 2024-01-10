@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
+
+import logoJE from '../../images/logoJE.png'
 import './Nav.styles.css'
 
 function Nav() {
@@ -38,7 +40,7 @@ function Nav() {
 
     return (
         <nav id="nav">
-            <img src="images/logoJE.png" className="logo" />
+            <img src={logoJE} className="logo" />
             <ul ref={sideMenuRef} id="sidemenu">
                 <li>
                     <Link to={'/'} onClick={() => scrollToSection('header')}>
