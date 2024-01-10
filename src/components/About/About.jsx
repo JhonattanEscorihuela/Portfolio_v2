@@ -1,12 +1,15 @@
 // About.js
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import userJE from '../../images/userJE.jpg'
 
 
 
 function About() {
+
+    const { pathname } = useLocation();
+    console.log(pathname);
 
     const [activeTab, setActiveTab] = useState('skills');
 
@@ -85,7 +88,7 @@ function About() {
                                     </div>
                                 </li>
                                 <li>
-                                    <Link to='/experienceWork' onClick={() => scrollToSection('experienceWork')}>
+                                    <Link to={'/experienceWork'} onClick={() => scrollToSection('experienceWork')}>
                                         <button type="button" className="text-[#9783C2] hover:text-white border border-[9783C2] hover:bg-[#9783C2] focus:ring-4 focus:outline-none focus:ring-[#9783C2] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[#9783C2] dark:text-[#9783C2] dark:hover:text-white dark:hover:bg-[#9783C2] dark:focus:ring-[#9783C2]">
                                             See More
                                         </button>

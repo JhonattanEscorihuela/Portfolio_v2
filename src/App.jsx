@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="App">
 
-            <Routes key={location.pathname} location={location}>
+            <Routes >
                 <Route index element={<MainContent />} />
                 <Route path='/experienceWork' element={<ExperienceTW />} />
             </Routes>
