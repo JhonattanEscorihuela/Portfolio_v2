@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
+import cv from '../../images/cv-EscorihuelaJhonattan.pdf'
+
 
 function Contact() {
 
@@ -39,7 +41,7 @@ function Contact() {
                         <h1 className="sub-title">Contact Me</h1>
                         <p><FontAwesomeIcon icon={faPaperPlane} /> Jhonattan1410@gmail.com</p>
                         <p><FontAwesomeIcon icon={faWhatsapp} /> +57 350 687 28 29</p>
-                        <a href="images/cv-EscorihuelaJhonattan.pdf" download className="btn btn2">Download CV</a>
+                        <a href={cv} download className="btn btn2">Download CV</a>
                     </div>
                     <div className="contact-right">
                         <form name="submit-to-google-sheet" onSubmit={handleSubmit}>
