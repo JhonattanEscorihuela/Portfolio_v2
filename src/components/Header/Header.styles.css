@@ -84,8 +84,12 @@ body {
 }
 
 
-.header-text h5 span {
+.header-text h6 span {
     color: #9783C2;
+}
+
+.header-text h6{
+    font-size: 25px;
 }
 
 .header-text {

@@ -11,11 +11,19 @@
 
     .header-text {
         margin-top: 80%;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header-text h1 {
         font-size: 30px;
+    }
+
+    .header-text h2{
+        font-size: 20px;
+    }
+
+    .header-text h6{
+        font-size: 14px;
     }
 
     nav .fa-solid {
@@ -81,15 +89,3 @@
     }
 }
 
-.dark-mode {
-    /* Cambia los colores y estilos para el modo oscuro */
-    background-color: #080808;
-    color: #fff;
-}
-
-/* Estilos para el tema claro */
-.light-mode {
-    /* Estilos para el modo claro */
-    background-color: #fff;
-    color: #333;
-}

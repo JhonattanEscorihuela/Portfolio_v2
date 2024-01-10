@@ -41,14 +41,14 @@ function Header() {
                     </div>
 
                     <h2>Jhonattan Escorihuela</h2>
-                    <h5>+5 years of experience in Telecommunications
+                    <h6>+5 years of experience in Telecommunications
                         <span> and starting this involving world of web development.
                         </span> I would like to specialize in developing unique applications.
                         <div>
                             And I'm a <span ref={textRef} className="text">
                             </span>
                         </div>
-                    </h5>
+                    </h6>
                 </div>
                 <SocialIcons />
             </div>

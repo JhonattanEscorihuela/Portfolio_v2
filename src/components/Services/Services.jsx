@@ -1,7 +1,7 @@
 // Services.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faCrop, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faBrain, faCalendar, faCalendarAlt, faCalendarCheck, faCode, faCrop, faLink, faMagnet } from '@fortawesome/free-solid-svg-icons';
 import './Services.styles.css'
 import { faAppStore } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,30 +13,26 @@ function Services() {
                 <div className="services-list">
                     <div>
                         <FontAwesomeIcon icon={faCode} className='i' />
-                        <h2>Web Design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque rem at molestiae
-                            ipsa
-                            omnis vel voluptate consequatur fugiat sequi quisquam, eaque odio quod placeat minus! Ullam
-                            illum eligendi maiores!</p>
-                        <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a>
+                        <h2>Full Stack Web</h2>
+                        <p>
+                            have a solid experience in creating complete web applications, covering both Frontend and Backend. My domain includes technologies such as HTML, CSS, JavaScript, React.js and Node.js. I have contributed significantly in more than three real projects for clients in Costa Rica, Argentina and Colombia, applying these skills to provide effective and quality solutions.
+                        </p>
+                        {/* <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a> */}
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faCrop} className='i' />
-                        <h2>UI/UX Design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque rem at molestiae
-                            ipsa
-                            omnis vel voluptate consequatur fugiat sequi quisquam, eaque odio quod placeat minus! Ullam
-                            illum eligendi maiores!</p>
-                        <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a>
+                        <FontAwesomeIcon icon={faCalendarCheck} className='i' />
+                        <h2>Rollout Manager</h2>
+                        <p>With over 5 years of experience, I have led telecommunications projects from their initial phase to final delivery to the client. In previous roles, I supervised a multidisciplinary team of more than 40 professionals. My agile approach adapts to the changing nature of technology projects, ensuring timely and efficient delivery of deliverables while maintaining high quality standards at every stage of the project.
+                        </p>
+                        {/* <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a> */}
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faAppStore} className='i' />
-                        <h2>App Design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque rem at molestiae
-                            ipsa
-                            omnis vel voluptate consequatur fugiat sequi quisquam, eaque odio quod placeat minus! Ullam
-                            illum eligendi maiores!</p>
-                        <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a>
+                        <FontAwesomeIcon icon={faBrain} className='i' />
+                        <h2>Tech Consulting</h2>
+                        <p>
+                            I participated in the creation of training materials and guides for technical personnel in telecommunications infrastructure projects. I implemented the Kaizen methodology to improve the quality and efficiency of the work in the radio bases. In addition, I advised associated contractors, attending direct requests from end clients, achieving continuous improvement and optimization of operations.
+                        </p>
+                        {/* <a href="#"><FontAwesomeIcon icon={faLink} /> Learn more</a> */}
                     </div>
                 </div>
             </div>
