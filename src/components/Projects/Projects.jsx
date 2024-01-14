@@ -3,7 +3,7 @@
 import React from "react";
 import { Projects } from '../../utils/Utils'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faLink, } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faExternalLinkAlt, faLink, } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 import './Projects.styles.css'
 
@@ -22,7 +22,7 @@ function ProjectsC() {
                                 <p>{p.despription}</p>
                                 <div className="icon-list">
                                     <a href={p.repository} target="_blank">
-                                        <FontAwesomeIcon icon={faLink} />
+                                        <FontAwesomeIcon icon={faCode} />
                                     </a>
                                     <a href={p.demo} target="_blank">
                                         <FontAwesomeIcon icon={faExternalLinkAlt} />
