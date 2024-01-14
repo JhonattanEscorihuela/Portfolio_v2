@@ -6,7 +6,10 @@ import Portfolio from './components/MyWork/Portfolio';
 import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import ExperienceTW from './components/Experience/ExperienceTW';
+import Projects from './components/Projects/Projects';
 import { Routes, Route, useLocation } from 'react-router-dom';
+
+import './App.styles.css'
 
 function App() {
 
@@ -17,6 +20,7 @@ function App() {
             <Routes >
                 <Route index element={<MainContent />} />
                 <Route path='/experienceWork' element={<ExperienceTW />} />
+                <Route path='/projects' element={<Projects />} />
             </Routes>
         </div>
     );
@@ -34,6 +38,7 @@ function MainContent() {
     );
 }
 
-import './App.styles.css'
+
+
 
 export default App;

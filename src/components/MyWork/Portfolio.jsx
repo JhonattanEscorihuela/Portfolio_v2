@@ -1,11 +1,8 @@
 // Portfolio.jsx
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowCircleDown, faExternalLinkAlt, faExternalLinkSquare, faExternalLinkSquareAlt, faLightbulb, faLineChart, faLink, faLinkSlash } from '@fortawesome/free-solid-svg-icons';
-
-import work1 from '../../images/work-1.png'
-import work2 from '../../images/work-2.png'
-import work3 from '../../images/work-3.png'
+import { faExternalLinkAlt, faLink, } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 import { Projects } from "../../utils/Utils";
 
@@ -36,7 +33,10 @@ function Portfolio() {
                         ))
                     }
                 </div>
-                <a href="#" className="btn">See more</a>
+                <Link to={'/projects'}>
+                    <a href="#" className="btn">See more</a>
+                </Link>
+
             </div>
         </div>
     );
