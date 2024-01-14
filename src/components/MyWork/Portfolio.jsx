@@ -1,11 +1,13 @@
 // Portfolio.jsx
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faArrowCircleDown, faExternalLinkAlt, faExternalLinkSquare, faExternalLinkSquareAlt, faLightbulb, faLineChart, faLink, faLinkSlash } from '@fortawesome/free-solid-svg-icons';
 
 import work1 from '../../images/work-1.png'
 import work2 from '../../images/work-2.png'
 import work3 from '../../images/work-3.png'
+
+import { Projects } from "../../utils/Utils";
 
 
 function Portfolio() {
@@ -14,42 +16,25 @@ function Portfolio() {
             <div className="container">
                 <h1 className="sub-title">My Work</h1>
                 <div className="work-list">
-                    <div className="work">
-                        <img src={work1} />
-                        <div className="layer">
-                            <h3>Social Media App</h3>
-                            <p>The app connects you yo the talented people around the world.
-                                Download it fro play store.
-                            </p>
-                            <a href="#">
-                                <FontAwesomeIcon icon={faLink} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="work">
-                        <img src={work2} />
-                        <div className="layer">
-                            <h3>Music App</h3>
-                            <p>The app connects you yo the talented people around the world.
-                                Download it fro play store.
-                            </p>
-                            <a href="#">
-                                <FontAwesomeIcon icon={faLink} />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="work">
-                        <img src={work3} />
-                        <div className="layer">
-                            <h3>Online Shopping App</h3>
-                            <p>The app connects you yo the talented people around the world.
-                                Download it fro play store.
-                            </p>
-                            <a href="#">
-                                <FontAwesomeIcon icon={faLink} />
-                            </a>
-                        </div>
-                    </div>
+                    {
+                        Projects.slice(0, 2).map(p => (
+                            <div className="work" key={p.id}>
+                                <img src={p.img} />
+                                <div className="layer">
+                                    <h3>{p.name}</h3>
+                                    <p>{p.despription}</p>
+                                    <div className="icon-list">
+                                        <a href={p.repository} target="_blank">
+                                            <FontAwesomeIcon icon={faLink} />
+                                        </a>
+                                        <a href={p.demo} target="_blank">
+                                            <FontAwesomeIcon icon={faExternalLinkAlt} />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
                 <a href="#" className="btn">See more</a>
             </div>
@@ -58,5 +43,6 @@ function Portfolio() {
 }
 
 import './Portfolio.styles.css'
+import { faGoogle, faWordpressSimple } from "@fortawesome/free-brands-svg-icons";
 
 export default Portfolio;
