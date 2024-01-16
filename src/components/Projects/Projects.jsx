@@ -24,9 +24,9 @@ function ProjectsC() {
                                     <a href={p.repository} target="_blank">
                                         <FontAwesomeIcon icon={faCode} />
                                     </a>
-                                    <a href={p.demo} target="_blank">
+                                    {p.demo ? <a href={p.demo} target="_blank">
                                         <FontAwesomeIcon icon={faExternalLinkAlt} />
-                                    </a>
+                                    </a> : null}
                                 </div>
                             </div>
                         </div>
