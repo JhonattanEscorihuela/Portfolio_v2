@@ -1,7 +1,7 @@
 import imgPuraVidaViajes from '../images/puraVidaViajes.webp'
 import imgEsquinaVerdePlanta from '../images/EsquinaVerde.webp'
 import imgDriversPi from '../images/DriversPI.jpg'
-import imgUserAuthApp from '../images/UserAuthApp.jpg'
+import imgUserAuthApp from '../images/userauthapp.jpg'
 
 export const Projects = [
 
