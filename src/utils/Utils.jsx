@@ -28,5 +28,12 @@ export const Projects = [
         demo: 'https://pidrivers.netlify.app',
         repository: 'https://github.com/JhonattanEscorihuela/ProyectoIndividual_JE_Drivers',
         despription: 'A web application with the use of Drivers api.'
+    },
+    {
+        id: 4,
+        name: "User Auth App",
+        demo: "https://userauthappescorihuela.netlify.app",
+        repository: "https://github.com/JhonattanEscorihuela/UserAuthApp",
+        despription: "A user authentication web app built with React.js, Redux, and CSS. It uses JWT tokens for authentication, Axios for API requests, and is deployable on Netlify and Render. Securely manage user registration and authentication!"
     }
 ]
