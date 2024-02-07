@@ -2,6 +2,7 @@ import imgPuraVidaViajes from '../images/puraVidaViajes.webp'
 import imgEsquinaVerdePlanta from '../images/EsquinaVerde.webp'
 import imgDriversPi from '../images/DriversPI.jpg'
 import imgUserAuthApp from '../images/userauthapp.jpg'
+import imgNoteApp from '../images/notesApp.jpg'
 
 export const Projects = [
 
@@ -23,6 +24,14 @@ export const Projects = [
     },
     {
         id: 3,
+        name: "Notes",
+        img: imgNoteApp,
+        demo: 'https://notes-escorihuela.netlify.app',
+        repository: 'https://github.com/JhonattanEscorihuela/Front_Note_Escorihuela',
+        despription: 'A website for notes, categorised, active and archived.'
+    },
+    {
+        id: 4,
         name: "PI Drivers",
         img: imgDriversPi,
         demo: 'https://pidrivers.netlify.app',
