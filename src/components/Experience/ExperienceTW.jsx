@@ -12,20 +12,27 @@ import { Link } from "react-router-dom";
 
 function ExperienceTW() {
 
-    
+
 
 
     const [diferenciaMeses, setDiferenciaMeses] = useState(null);
+    const [difMonths, setDifMonths] = useState(null);
 
     useEffect(() => {
         const fechaActual = new Date();
         const fechaObjetivo = new Date('2023-08-15');
+        const dateTarget = new Date('2024-02-01');
 
         // Calcular la diferencia en meses
         const diferenciaAnos = fechaObjetivo.getFullYear() - fechaActual.getFullYear();
         const diferenciaMeses = (diferenciaAnos * 12) + (fechaObjetivo.getMonth() - fechaActual.getMonth());
 
+        const difAnos = dateTarget.getFullYear()- fechaActual.getFullYear();
+        const difMonths = (difAnos * 12) + (dateTarget.getMonth() - fechaActual.getMonth());
+
         setDiferenciaMeses(diferenciaMeses * -1);
+        setDifMonths(difMonths * -1);
+
     }, []);
 
 
@@ -45,6 +52,33 @@ function ExperienceTW() {
                 Work experience
             </h2>
             <ol className="relative border-s ">
+                <li className="mb-10 ms-6">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3">
+                        <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                        </svg>
+                    </span>
+                    <h3 className="flex items-center mb-1 text-lg font-semibold mt-1 text-[#9783C2] ">
+                        Developer Front End
+                        <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:text-blue-300 ms-3">
+                            Current
+                        </span>
+                    </h3>
+                    <time className="block mb-2 text-sm font-normal ">
+                        February 2024 - Present ({difMonths} months)
+                    </time>
+                    <p className="mb-4 text-[#ababab] font-normal ">
+                        <div className="mb-3">
+                            I collaborated in the design and development of a responsive navigation component that received praise for its elegance and usability.
+                        </div>
+                        <div>
+                            Protection of access routes for customer SPAs.
+                        </div>
+                    </p>
+
+                </li>
+
+
                 <li className="mb-10 ms-6">
                     <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3">
                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

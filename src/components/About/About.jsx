@@ -48,8 +48,8 @@ function About() {
                                         Full Stack Web Development
                                     </span>
                                     <div>
-                                        HTML, CSS, JavaScript, React.js,
-                                        Next.js, Redux, Node.js, Express.js, PostgreSQL, MongoDB, Sequelize
+                                        HTML, CSS, JavaScript, TypeScript, Talwindcss, React.js, GraphQl
+                                        Next.js, Redux, Node.js, Express.js, PostgreSQL, MongoDB, Sequelize, 
                                     </div>
                                 </li>
                                 <li>
@@ -81,10 +81,10 @@ function About() {
                                 </li>
                                 <li>
                                     <span>
-                                        March 2023 – May 2023
+                                        February 2024 – Current
                                     </span>
                                     <div>
-                                        Rollout Manager
+                                        Developer FrontEnd
                                     </div>
                                 </li>
                                 <li>
