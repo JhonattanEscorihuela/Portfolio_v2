@@ -68,7 +68,7 @@ function ExperienceTW() {
                         February 2024 - Present ({difMonths} months)
                     </time>
                     <p className="mb-4 text-[#ababab] font-normal ">
-                        <div className="mb-3">
+                        <div>
                             Development and maintenance of user interfaces.
                         </div>
                         <div>
