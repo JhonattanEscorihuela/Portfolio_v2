@@ -27,7 +27,7 @@ function ExperienceTW() {
         const diferenciaAnos = fechaObjetivo.getFullYear() - fechaActual.getFullYear();
         const diferenciaMeses = (diferenciaAnos * 12) + (fechaObjetivo.getMonth() - fechaActual.getMonth());
 
-        const difAnos = dateTarget.getFullYear()- fechaActual.getFullYear();
+        const difAnos = dateTarget.getFullYear() - fechaActual.getFullYear();
         const difMonths = (difAnos * 12) + (dateTarget.getMonth() - fechaActual.getMonth());
 
         setDiferenciaMeses(diferenciaMeses * -1);
@@ -69,11 +69,18 @@ function ExperienceTW() {
                     </time>
                     <p className="mb-4 text-[#ababab] font-normal ">
                         <div className="mb-3">
-                            I collaborated in the design and development of a responsive navigation component that received praise for its elegance and usability.
+                            Development and maintenance of user interfaces.
                         </div>
                         <div>
-                            Protection of access routes for customer SPAs.
+                            Collaboration in design and technical feasibility.
                         </div>
+                        <div>
+                            Management and resolution of issues.
+                        </div>
+                        <div>
+                            Presenting and communicating progress
+                        </div>
+
                     </p>
 
                 </li>

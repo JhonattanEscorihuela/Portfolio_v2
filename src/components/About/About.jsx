@@ -17,6 +17,8 @@ function About() {
         setActiveTab(tabName);
     };
 
+    
+
 
     return (
         <div id="about">
