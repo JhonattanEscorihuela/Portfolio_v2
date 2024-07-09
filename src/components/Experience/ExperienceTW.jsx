@@ -236,7 +236,7 @@ function ExperienceTW() {
                 in Colombia, I ensured efficient and successful deployments,
                 maintaining high quality standards and controlling time and
                 budget. I addressed to multidisciplinary teams, guaranteed
-                quality and schedule compliance.
+                quality and schedule compliance
               </div>
             </div>
             <div className="relative">
