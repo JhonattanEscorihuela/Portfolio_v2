@@ -1,0 +1,8 @@
+{
+    "gitflow4code.features": [
+        {
+            "name": "feature/update_cv_and_bullect-point",
+            "base": "develop"
+        }
+    ]
+}
